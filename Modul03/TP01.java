@@ -1,31 +1,17 @@
 import java.util.Scanner;
-
 public class TP01 {
 
-    public static void main(final String[] args) {
-        System.out.println("----------");
-		System.out.println("Tabungan Dira");
-		System.out.println("Masukan 1");
-		System.out.println("==========");
-		int X = 500000;
-		int Y = 10000;
-		int N = 30;
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
 
-		
-		int total = X + (Y*N);
-		System.out.println(total);
+        int x = input.nextInt();
+        int y = input.nextInt();
+        int n = input.nextInt();
 
+        int total = x + (y * n);
 
-		System.out.println("==========");
-		System.out.println("Tabungan Dira");
-		System.out.println("Masukan 2");
-		System.out.println("----------");
-		int X2 = 250000;
-		int Y2 = 25000;
-		int N2 = 30;
+        System.out.println(total);
 
-		
-		int total2 = X2 + (Y2*N2);
-		System.out.println(total2);
-	}
+        input.close();
+    }
 }
