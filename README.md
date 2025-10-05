@@ -1,8 +1,8 @@
 ## Identitas
 
-Nama: 
+Nama: Mohammad Abdul Aziz
 
-NIM : 
+NIM : 607062500056
 
 ## Instruksi
 
