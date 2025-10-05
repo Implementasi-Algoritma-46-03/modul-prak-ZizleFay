@@ -25,5 +25,6 @@ Scanner n = new Scanner(System.in);
         }
         System.out.printf("Ppn 11%% = %.1f%n", pajak);
         System.out.printf("Total dibayar = %.1f%n", totalBayar);
+        
     }
 }
