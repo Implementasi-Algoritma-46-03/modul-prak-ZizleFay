@@ -2,7 +2,6 @@
 import java.util.Scanner;
 
 public class Jurnal01 {
-
     public static void main(final String[] args) {
     Scanner input = new Scanner(System.in);
 
@@ -14,6 +13,6 @@ public class Jurnal01 {
         System.out.println(lembarSeribu);
         System.out.println(sisaUang);
         
-
+        input.close();
     }
 }

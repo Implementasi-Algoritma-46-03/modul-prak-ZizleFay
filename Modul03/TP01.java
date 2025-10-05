@@ -13,5 +13,7 @@ public class TP01 {
         System.out.println(total);
 
         input.close();
+
+        
     }
 }

@@ -14,5 +14,6 @@ public class TP02 {
         System.out.println("Hi, " + nama + ". Total belanja adalah " + totalHarga + " rupiah.");
 
         input.close();
+        
     }
 }

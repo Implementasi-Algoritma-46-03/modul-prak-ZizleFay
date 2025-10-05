@@ -18,5 +18,6 @@ public class TP03 {
         System.out.println(sisaPermen);
 
         input.close();
+        
     }
 }
