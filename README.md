@@ -1,6 +1,6 @@
 ## Identitas
 
-Nama: Mohammad Abdul Aziz
+Nama: Mohammad Abdul AziZ
 
 NIM : 607062500056
 
