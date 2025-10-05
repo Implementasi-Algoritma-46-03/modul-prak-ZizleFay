@@ -108,6 +108,144 @@
       "comparison": "included",
       "timeout": 10,
       "points": 4
+    },
+    {
+      "name": "Jurnal01a",
+      "setup": "javac Modul04/Jurnal01.java",
+      "run": "java -cp Modul04 Jurnal01",
+      "input": "8",
+      "output": "Faktor dari 24 dan 56",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+	{
+      "name": "Jurnal01b",
+      "setup": "javac Modul04/Jurnal01.java",
+      "run": "java -cp Modul04 Jurnal01",
+      "input": "9",
+      "output": "Bukan faktor dari 24 dan 56",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Jurnal02a",
+      "setup": "javac Modul04/Jurnal02.java",
+      "run": "java -cp Modul04 Jurnal02",
+      "input": "45",
+      "output": "Penghasilan kotor = 45 juta Rupiah\nPajak 5% = Rp. 2250000\nPenghasilan bersih = Rp. 42750000",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Jurnal02b",
+      "setup": "javac Modul04/Jurnal02.java",
+      "run": "java -cp Modul04 Jurnal02",
+      "input": "525",
+      "output": "Penghasilan kotor = 525 juta Rupiah\nPajak 30% = Rp. 157500000\nPenghasilan bersih = Rp. 367500000",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Jurnal03a",
+      "setup": "javac Modul04/Jurnal03.java",
+      "run": "java -cp Modul04 Jurnal03",
+      "input": "65 68 64",
+      "output": "Idar, Dira, Radi",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },{
+      "name": "Jurnal03b",
+      "setup": "javac Modul04/Jurnal03.java",
+      "run": "java -cp Modul04 Jurnal03",
+      "input": "71 65 69",
+      "output": "Radi, Idar, Dira",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },{
+      "name": "Jurnal03c",
+      "setup": "javac Modul04/Jurnal03.java",
+      "run": "java -cp Modul04 Jurnal03",
+      "input": "70 72 75",
+      "output": "Dira, Radi, Idar",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "TP01a",
+      "setup": "javac Modul04/TP01.java",
+      "run": "java -cp Modul04 TP01",
+      "input": "24",
+      "output": "Kelipatan enam",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "TP01b",
+      "setup": "javac Modul04/TP01.java",
+      "run": "java -cp Modul04 TP01",
+      "input": "14",
+      "output": "Bukan kelipatan enam",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "TP02a",
+      "setup": "javac Modul04/TP02.java",
+      "run": "java -cp Modul04 TP02",
+      "input": "300000",
+      "output": "Transaksi = 300000\nTotal = 300000 - 15000\nPpn 11% = 31350.0\nTotal dibayar = 316350.0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "TP02b",
+      "setup": "javac Modul04/TP02.java",
+      "run": "java -cp Modul04 TP02",
+      "input": "150000",
+      "output": "Transaksi = 150000\nTotal = 150000\nPpn 11% = 16500.0\nTotal dibayar = 166500.0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "TP03a",
+      "setup": "javac Modul04/TP03.java",
+      "run": "java -cp Modul04 TP03",
+      "input": "65 68 64",
+      "output": "Radi",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "TP03b",
+      "setup": "javac Modul04/TP03.java",
+      "run": "java -cp Modul04 TP03",
+      "input": "71 65 69",
+      "output": "Dira",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "TP03c",
+      "setup": "javac Modul04/TP03.java",
+      "run": "java -cp Modul04 TP03",
+      "input": "70 72 75",
+      "output": "Idar",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
     }
   ]
 }
