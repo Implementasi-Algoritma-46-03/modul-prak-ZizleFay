@@ -3,7 +3,6 @@ import java.util.Locale;
 
 
 public class TP02 {
-
     public static void main(String[] args) {
 Scanner n = new Scanner(System.in);
         int harga = n.nextInt();
@@ -25,6 +24,5 @@ Scanner n = new Scanner(System.in);
         }
         System.out.printf("Ppn 11%% = %.1f%n", pajak);
         System.out.printf("Total dibayar = %.1f%n", totalBayar);
-        
     }
 }
