@@ -1,7 +1,6 @@
 import java.util.Scanner;
 import java.util.Locale;
 
-
 public class TP02 {
     public static void main(String[] args) {
 Scanner n = new Scanner(System.in);
