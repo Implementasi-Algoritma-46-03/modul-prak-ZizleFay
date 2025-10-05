@@ -5,12 +5,14 @@ public class Jurnal02 {
     public static void main(final String[] args) {
         Scanner input = new Scanner(System.in);
 
-        int a = input.nextInt();
-        int b = input.nextInt();
-        int c = input.nextInt();
+        int A = input.nextInt();
+        int B = input.nextInt();
+        int C = input.nextInt();
 
-        double median = (a + b + c) / 3;
+        double median = (A + B + C) / 3.0;
         
         System.out.printf("%.2f", median);
+
+        
     }
 }

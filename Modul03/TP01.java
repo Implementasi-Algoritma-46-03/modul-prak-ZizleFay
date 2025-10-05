@@ -4,11 +4,11 @@ public class TP01 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        int x = input.nextInt();
-        int y = input.nextInt();
-        int n = input.nextInt();
+        int X = input.nextInt();
+        int Y = input.nextInt();
+        int N = input.nextInt();
 
-        int total = x + (y * n);
+        int total = X + (Y * N);
 
         System.out.println(total);
 
