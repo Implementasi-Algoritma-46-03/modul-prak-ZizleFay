@@ -17,8 +17,8 @@ Scanner in = new Scanner(System.in);
         int juta = N * 1000_000;
         double besarPajak = juta * Pajak;
         double hasilBersih = juta - besarPajak;
-        System.out.println("Penghasilan kotor = Rp. " + N + " juta Rupiah");
-        System.out.println("Pajak " + (int)(Pajak * 100) + "% = Rp " + (int)besarPajak);
+        System.out.println("Penghasilan kotor = " + N + " juta Rupiah");
+        System.out.println("Pajak " + (int)(Pajak * 100) + "% = Rp. " + (int)besarPajak);
         System.out.println("Penghasilan bersih = Rp. " +(int) hasilBersih);
     }
 }
