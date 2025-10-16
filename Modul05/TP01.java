@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class TP01 {
 
-    
+
     public static void main(String[] args) {
         Scanner inputScanner = new Scanner(System.in);
 
@@ -37,7 +37,7 @@ public class TP01 {
                 bulanPerancis = "septembre";
                 break;
             case "oktober":
-                bulanPerancis = "octobre";
+                bulanPerancis = "oktobre";
                 break;
             case "november":
                 bulanPerancis = "novembre";
