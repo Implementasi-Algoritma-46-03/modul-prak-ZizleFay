@@ -1,6 +1,7 @@
 import java.util.Scanner;
 public class TP01 {
 
+    
     public static void main(String[] args) {
         Scanner inputScanner = new Scanner(System.in);
 
@@ -52,6 +53,6 @@ public class TP01 {
         System.out.println(bulanPerancis);
 
         inputScanner.close();
-        
+
     }
 }
