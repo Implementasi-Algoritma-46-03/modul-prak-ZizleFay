@@ -1,8 +1,8 @@
 ## Identitas
 
-Nama: Pasya Muhammad Rizky
+Nama: Mohammad Abdul Aziz
 
-NIM : 607062500047
+NIM : 607062500056
 
 ## Instruksi
 
