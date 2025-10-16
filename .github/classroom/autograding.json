@@ -55,7 +55,7 @@
       "setup": "javac Modul05/Jurnal02.java",
       "run": "java -cp Modul05 Jurnal02",
       "input": "Jum'at\n240",
-      "output": "Selasa",
+      "output": "Minggu",
       "comparison": "included",
       "timeout": 10,
       "points": 5
