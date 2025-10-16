@@ -32,7 +32,6 @@ public class Jurnal01 {
                 System.out.println("");
                 return;
         }
-        
         double totalHarga = hargaMakanan * M;
         System.out.println(namaMakanan + M + " buah, total harga Rp. " + totalHarga + "00");
     }

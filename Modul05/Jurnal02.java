@@ -68,7 +68,6 @@ public class Jurnal02 {
                 namaHariTujuan = "Minggu";
                 break;
         }
-
         System.out.println(namaHariTujuan);
         
         scanner.close();
