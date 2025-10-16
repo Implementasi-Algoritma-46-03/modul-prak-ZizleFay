@@ -52,5 +52,6 @@ public class TP01 {
         System.out.println(bulanPerancis);
 
         inputScanner.close();
+        
     }
 }
