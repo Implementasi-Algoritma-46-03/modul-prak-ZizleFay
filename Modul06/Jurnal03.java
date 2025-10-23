@@ -28,5 +28,6 @@ public class Jurnal03 {
         double hasilPersentase = persentaseAir(t, h);
 
         System.out.printf("%.2f %.2f %.1f%%", hasilVol, tinggiHasil, hasilPersentase);
+        
     }
 }
