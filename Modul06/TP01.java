@@ -21,8 +21,8 @@ public class TP01 {
         double reamur3 = fahrenheitToReamur(fahrenheit3);
 
         // Menampilkan keluaran sesuai format (2 angka desimal)
-        System.out.printf("%.2f %.2f %.2f\n Celcius: ", celcius1, celcius2, celcius3);
-        System.out.printf("%.2f %.2f %.2f\n Reamur: ", reamur1, reamur2, reamur3);
+        System.out.printf("Celcius: ", celcius1, celcius2, celcius3);
+        System.out.printf("%.2f %.2f %.2f\n", reamur1, reamur2, reamur3);
 
         scanner.close();
     }
