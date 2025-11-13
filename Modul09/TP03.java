@@ -1,22 +1,19 @@
 import java.util.Scanner;
 
 public class TP03 {
-
-    public static long faktorial(int n) {
-        if (n == 0 || n == 1) {
-            return 1;
-        } else {
-            return n * faktorial(n - 1);
-        }
-    }
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt();
-        
-        long hasil = faktorial(n);
-        System.out.println(hasil);
-        
+        int angka = scanner.nextInt();
+        long hasilFaktorial = faktorial(angka);
+        System.out.println(hasilFaktorial);
         scanner.close();
+    }
+
+    public static long faktorial(int n) {
+        if (n <= 1) {
+            return 1;
+        } else {
+            return (long) n * faktorial(n - 1);
+        }
     }
 }

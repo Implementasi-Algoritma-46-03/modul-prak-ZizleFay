@@ -1,27 +1,17 @@
 import java.util.Scanner;
 
 public class TP01 {
-
-    public static void cetakGanjilGenap(int angkaSekarang, int batasAkhir) {
-        if (angkaSekarang > batasAkhir) {
-            return;
-        }
-
-        if (angkaSekarang % 2 == 0) {
-            System.out.println(angkaSekarang + " Genap");
-        } else {
-            System.out.println(angkaSekarang + " Ganjil");
-        }
-
-        cetakGanjilGenap(angkaSekarang + 1, batasAkhir);
-    }
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int batasInput = scanner.nextInt();
+        int batasAngka = scanner.nextInt();
 
-        cetakGanjilGenap(1, batasInput);
-
+        for (int i = 1; i <= batasAngka; i++) {
+            if (i % 2 == 0) {
+                System.out.println(i + " Genap");
+            } else {
+                System.out.println(i + " Ganjil");
+            }
+        }
         scanner.close();
     }
 }
