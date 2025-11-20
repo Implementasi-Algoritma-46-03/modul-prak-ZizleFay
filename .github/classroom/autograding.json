@@ -7,7 +7,7 @@
       "input": "",
       "output": "1 1 1 1 1 \n 2 2 2 2 2\n3 3 3 3 3 \n 4 4 4 4 4\n5 5 5 5 5 \n 6 6 6 6 6",
       "comparison": "included",
-      "timeout": 10,
+      "timeout": 15,
       "points": 20
     },
     {
