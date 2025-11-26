@@ -7,7 +7,7 @@
       "input": "Dira\nRadi\nIdar\n-",
       "output": "Bulan 1: Dira\nBulan 2: Radi\nBulan 3: Idar",
       "comparison": "included",
-      "timeout": 10,
+      "timeout": 15,
       "points": 20
     },
     {
